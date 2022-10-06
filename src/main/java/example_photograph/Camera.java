@@ -1,6 +1,7 @@
 package example_photograph;
 
 public class Camera {
+
     private CameraRoll cameraRoll;
 
     public CameraRoll getCameraRoll() {
@@ -12,6 +13,6 @@ public class Camera {
 
     public void doPhotograph() {
         System.out.println("Щелк!");
-        cameraRoll.processing();
+//        cameraRoll.processing();
     }
 }
